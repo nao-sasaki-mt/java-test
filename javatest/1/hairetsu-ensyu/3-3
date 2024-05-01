@@ -1,0 +1,8 @@
+public class Main {
+    public static void main(String[] args) {
+        String[] ArrayList = {"青木", "桑田", "長岡", "中島"};
+        for (String name : ArrayList) {
+            System.out.println("内定者" + name);
+        }
+    }    
+}
