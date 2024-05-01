@@ -1,0 +1,16 @@
+ublic class Main {
+    public static void main(String[] args) {
+        int sum = 0;
+        int sum2 = 0;
+        
+        for(int i = 0; i <= 10; i++) {
+            sum += i;
+        }
+        for (int i = 0; i <= 100; i++) {
+            sum2 += i;
+        }
+        System.out.println("1から10の和は" + sum);
+        System.out.println("1から100の和は" + sum2);
+    }
+    
+}

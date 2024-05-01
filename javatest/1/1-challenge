@@ -1,0 +1,41 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("じゃんけんを開始します");
+        
+        int player1 = new java.util.Random() .nextInt(3) + 1;
+        int player2 = new java.util.Random() .nextInt(3) + 1;
+        
+        if (player1 == 1) {
+            System.out.println("player1:グー");
+        } else if (player1 == 2) {
+            System.out.println("player1:チョキ");
+        } else {
+            System.out.println("player1:パー");
+        }
+        
+        if (player2 == 1) {
+            System.out.println("player2:グー");
+        } else if (player2 == 2) {
+            System.out.println("player2:チョキ");
+        } else {
+            System.out.println("player2:パー");
+        }
+
+        if (player1 == player2) {
+            System.out.println("あいこです");
+        } else if (player1 == 1 || player2 == 2) {
+            System.out.println("player1の勝ちです");
+        } else if (player1 == 2 || player2 == 3) {
+            System.out.println("player1の勝ちです");
+        } else if (player1 == 3 || player2 == 1) {
+            System.out.println("player1の勝ちです");
+        } else if (player1 == 2 || player2 == 1) {
+            System.out.println("player2の勝ちです");
+        } else if (player1 == 3 || player2 == 2) {
+            System.out.println("player2の勝ちです");
+        } else if (player1 == 1 || player2 == 3) {
+            System.out.println("player2の勝ちです");
+        }
+    } 
+    
+}

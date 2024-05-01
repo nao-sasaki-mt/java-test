@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        int number = new java.util.Scanner(System.in) .nextInt();
+        while (number % 7 != 0) {
+            System.out.println("1～100の数字を入力してください。");
+            break;
+        }
+      
+    }
+}
