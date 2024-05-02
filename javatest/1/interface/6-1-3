@@ -1,0 +1,7 @@
+public class Zou extends Face {
+    
+    String nose() {
+        return "長い";
+    }
+    
+}

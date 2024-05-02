@@ -1,0 +1,9 @@
+public abstract class Face {
+    
+    public void execute() {
+        System.out.println("鼻の長さが" + nose());
+    }
+    
+    abstract String nose();
+    
+}

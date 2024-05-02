@@ -1,0 +1,9 @@
+//java p435~
+public interface Face {
+    String mouth();
+    int eye(int number);
+    void nose();
+}
+
+//インターフェースに宣言されたメソッドは自動的にpublicかつabstractになるため
+//5行目public abstract void nose(); のpublic abstractを省略可
