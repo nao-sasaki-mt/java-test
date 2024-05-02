@@ -1,0 +1,6 @@
+//seattleパッケージに格納
+package seattle;
+//extends～で基本的には「SeattleEmployee」と同じと宣言
+public class SeattleSSEmployee extends SeattleEmployee {
+        
+}

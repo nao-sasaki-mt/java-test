@@ -1,0 +1,11 @@
+//seattleパッケージに格納
+package seattle;
+//extends～で基本的には「SeattleEmployee」と同じと宣言
+public class SeattleSSEmployee extends SeattleEmployee {
+    // オーバーライドして戻り値をSI事業部に
+    //
+    public String getDept() {
+        return "SI事業部";
+    }
+    
+}
