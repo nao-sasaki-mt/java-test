@@ -1,0 +1,9 @@
+public static void main(String[] args) {
+    CapslationPractice instance = new CapslationPractice();
+    instance.setPrivateData(200); // privateDataに200をセット
+
+    // privateDataを標準出力
+    System.out.println("privateData: " + instance.getPrivateData());
+}
+
+

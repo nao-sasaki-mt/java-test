@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        // 引数なしコンストラクタでインスタンス化
+        Employee employee1 = new Employee();
+        employee1.printName();
+
+        // 文字列引数を指定してインスタンス化
+        Employee employee2 = new Employee("John Doe");
+        employee2.printName();
+    }
+}

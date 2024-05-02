@@ -1,0 +1,18 @@
+public class CapslationPractice {
+    private int privateData; // privateなインスタンス変数
+
+    // 引数無しのコンストラクタ
+    public CapslationPractice() {
+        // 何もしない
+    }
+
+    // privateDataを返却するメソッド
+    public int getPrivateData() {
+        return privateData;
+    }
+
+    // privateDataに値をセットするメソッド
+    public void setPrivateData(int value) {
+        privateData = value;
+    }
+}
