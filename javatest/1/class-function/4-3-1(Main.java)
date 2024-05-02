@@ -2,11 +2,11 @@ public class Main {
     public static void main(String[] args) {
         // 引数なしコンストラクタでインスタンス化
         Employee2 employee1 = new Employee2();
-        employee1.printName();
+        employee1.Name();
 
         // 文字列引数を指定してインスタンス化
         Employee2 employee2 = new Employee2("John Doe");
-        employee2.printName();
+        employee2.Name();
         
         //社員人数を出力するクラスメソッド
         employee2.emlpoyeeNumbers();

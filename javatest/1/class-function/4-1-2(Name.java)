@@ -1,0 +1,17 @@
+public class Name {
+    public void sameName() {
+        System.out.println("引数を持たないsameNameメソッドです。");
+    }
+    public void sameName(int x) {
+        System.out.println("int型の引数を1つもつsameNameメソッドです。引数:" + x);
+    }
+    public void sameName(int x, int y) {
+        System.out.println("int型の引数を2つもつsameNameメソッドです。引数:" + x + "," + y);
+    }
+    public void sameName(String x) {
+        System.out.println("String型の引数を1つもつsameNameメソッドです。引数:" + x);
+    }
+    public void sameName(String x, String y) {
+        System.out.println("String型の引数を2つもつsameNameメソッドです。引数:" + x + "," + y);
+    }
+}

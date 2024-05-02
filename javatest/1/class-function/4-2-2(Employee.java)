@@ -1,0 +1,26 @@
+class Employee {
+    public String name;
+
+    // 引数なしのコンストラクタ
+    // java p349~ このクラスがnewされた直後に自動的に実行されるもの（Main.javaの5行と9行）
+    public Employee() {
+        // java p313~ thisは「自分自身のインスタンス」を意味する。(.)には「の」と同様の意味
+        this.name = "匿名希望";
+    }
+
+    // 文字列引数を受けるコンストラクタ
+    public Employee(String name) {
+        // 文字列が11文字以上の場合、切り捨てる
+        if (name.length() > 10) {
+            StringBuilder sb = new StringBuilder(name);
+            this.name = sb.substring(0, 10);
+        } else {
+            this.name = name;
+        }
+    }
+
+    // 名前を出すメソッド
+    public void Name() {
+        System.out.println("私はシアトルコンサルティングの社員です。名前は" + this.name + "です。");
+    }
+}
