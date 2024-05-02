@@ -23,7 +23,7 @@ class Employee2 {
         numbers++; //社員人数カウント
     }
     // 名前を標準出力するメソッド
-    public void printName() {
+    public void Name() {
         System.out.println("私はシアトルコンサルティングの社員です。名前は" + this.name + "です。");
     }
     

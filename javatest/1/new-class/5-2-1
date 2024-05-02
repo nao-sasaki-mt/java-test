@@ -1,0 +1,18 @@
+import seattle.SeattleEmployee;
+import seattle.SeattleSSEmployee;
+
+public static void main(String[] args) {
+    // SeattleEmployeeクラスのインスタンスを作成
+    SeattleEmployee employee1 = new SeattleEmployee();
+    // 社員名をセット
+    employee1.setEmpName("森本まゆ"); 
+
+    // SeattleSSEmployeeクラスのインスタンスを作成
+    SeattleSSEmployee employee2 = new SeattleSSEmployee();
+    // 社員名をセット
+    employee2.setEmpName("Pepper"); 
+
+    // インスタンスの社員氏名と所属部署を標準出力
+    System.out.println("社員氏名：" + employee1.getEmpName() + "\n所属部署:" + employee1.getDept());
+    System.out.println("社員氏名：" + employee2.getEmpName() + "\n所属部署:" + employee2.getDept());
+}
